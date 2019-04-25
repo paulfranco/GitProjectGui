@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.action_reset) {
-            jokeTextView.setText("Press the button to load a new joke!");
+            jokeTextView.setText(R.string.press_button_to_reset);
         }
 
         return super.onOptionsItemSelected(item);
