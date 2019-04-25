@@ -1,2 +1,2 @@
 # GitProjectGui
-Git Project with gui
+Practice using Git Branches for Android Development
